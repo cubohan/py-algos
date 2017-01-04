@@ -28,7 +28,7 @@ The concept behind my solution is simple.
     (Note: also make a dictionary of vertices and their indexes in the route list. This will be used later.)
 3. You visit the first edge of the current vertex if it's not already visited. 
     (Note: A dictionary of visited edges is maintained, the key to this dict is a sorted tuple of the pair of vertices constituting the edge. After visiting an edge, mark it visited by inserting it into the dict.)
-4. You maintain a count of degrees remaining of the current vertex (This will prove useful later)
+4. You maintain a count of degrees remaining of the current vertex and the visited vertex (This will prove useful later)
     (Note: you only need to subtract 1 from the dict of degrees you generate before each time you choose an edge)
 5. You switch current vertex to the vertex on the other end of the edge you decided to visit.
 6. Repeat steps 2-5 until you can't find an unvisited edge in the current vertex. 
