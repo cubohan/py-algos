@@ -1,5 +1,8 @@
 # Algorithms in python
 
+## Here's my hackerrank profile and more algos: https://www.hackerrank.com/cubohan
+#### Note that I was active for only two weeks over there
+
 ### Graphs:
     #### 1. eulerian_tour.py:
                 ##### Problem: 
