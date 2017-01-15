@@ -97,7 +97,7 @@ def find_eulerian_tour(graph):
 
 if __name__ == "__main__":
     print find_eulerian_tour([(0, 1), (1, 5), (1, 7), (4, 5),(4, 8), (1, 6), (3, 7), (5, 9),(2, 4), (0, 4), (2, 5), (3, 6), (8, 9)])
-
+"""
 This is a bit long but its worth it, trust me.
 
 I should mention how my solution is different from that on stackoverflow, 
@@ -153,3 +153,4 @@ Draw a graph from the test case given in the link to the code and you will under
 
 Ah, and note that this guarantee holds only if all the edges in the input list form a single graph and not two separate disjointed graphs.
 
+"""
