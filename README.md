@@ -1,8 +1,5 @@
 # Algorithms in python
 
-## Here's my hackerrank profile and more algos: https://www.hackerrank.com/cubohan
-#### Note that I was active for only two weeks over there
-
 ### Graphs:
     #### 1. eulerian_tour.py:
                 ##### Problem: 
@@ -63,3 +60,5 @@ Draw a graph from the test case given in the link to the code and you will under
 
 Ah, and note that this guarantee holds only if all the edges in the input list form a single graph and not two separate disjointed graphs.
 
+#### Here's my hackerrank profile and more algos: https://www.hackerrank.com/cubohan
+ Note that I was active for only two weeks over there
